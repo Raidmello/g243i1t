@@ -1,3 +1,5 @@
 function aperte(){
-    alert("Alô. QUERIDINHOS DA JOSSYARA!!");
+    while(true){
+        alert("Alô. QUERIDINHOS DA JOSSYARA!!");
+    }
 }
