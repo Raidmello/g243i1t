@@ -1,0 +1,71 @@
+.botao {
+    margin-top: 10%;
+    background-color: beige;
+    color: black;
+    text-align: center;
+    width: 80%;
+    font-size: 40%;
+}
+ .conteudo{
+    text-align: center;
+ }
+body {
+    background-color: blanchedalmond;
+}
+.barra{
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+}
+.desktop {
+    display: none;
+}
+.tablet {
+    display: none;
+}
+.mobile {
+    font-size: 50px;
+    color: aliceblue;
+}
+@media (min-width:800px) {
+    .barra {
+        background-color: rgb(171, 113, 197);
+        height: 80px;
+    }
+    .mobile{
+        display: none;
+    }
+    .tablet{
+        display: inline;
+        font-size: 55px;
+        color: black;
+    }
+    .botao {
+        margin-top: 0;
+        width: 70px;
+        font-size: 16px;
+    }
+    .conteudo{
+        text-align: right;
+    }
+}
+
+
+@media (min-width:1228px) {
+    .barra{
+        background-color: rgb(127, 208, 255);
+        height: 120px;
+    }
+    .tablet{
+        display: none;
+    }
+    .desktop{
+        display: inline;
+        font-size: 70px;
+        color: black;
+    }
+    .conteudo{
+        text-align: left;
+    }
+}
